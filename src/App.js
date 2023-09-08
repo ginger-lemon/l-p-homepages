@@ -1,22 +1,19 @@
 import React from 'react';
 import './App.module.css';
+import Header from './component/Header/Header'
+import Trending from './component/Trending/Trending';
+import New from './component/New/New';
+import Popular from './component/Popular/Popular';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <main>
+        <Trending />
+        <New />
+        <Popular />
+      </main>
     </div>
   );
 }
