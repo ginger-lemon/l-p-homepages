@@ -1,0 +1,35 @@
+.article {
+    width: 65%;
+}
+
+.img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.divTexts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h1 {
+    font-size: 52px;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-extra-bold);
+    width: 40%;
+    line-height: 1em;
+    margin: var(--font-margin-h1);
+}
+
+.box {
+    width: 52%;
+}
+
+.box > p {
+    margin-bottom: 30px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
+    line-height: 1.5em;
+    color: var(--dark-grayish-blue);
+}

@@ -1,15 +1,16 @@
 import React from "react";
 import logo from "../../assets/images/logo.svg"
+import styles from './Header.module.css';
 
 function Header() {
     return(
-        <header>
+        <header className={styles.header}>
             <img 
                 src={logo}
                 alt=""
-                className=""
+                className={styles.logo}
             />
-            <nav>
+            <nav className={styles.nav}>
                 <span>Home</span>
                 <span>New</span>
                 <span>Popular</span>

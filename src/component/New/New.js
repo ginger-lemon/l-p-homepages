@@ -1,35 +1,38 @@
 import React from "react";
+import styles from './New.module.css';
 
 function New() {
     return (
-        <aside>
-            <h1>
+        <aside className={styles.aside}>
+            <h2 className={styles.h2}>
                 New
-            </h1>
-            <article className="">
-                <h2>
-                    Hydrogen VS Electric Cars
-                </h2>
-                <p>
-                    Will hydrogen-fueled cars ever catch up to EVs?
-                </p>
-            </article>
-            <article className="">
-                <h2>
-                    The Downsides of AI Artistry
-                </h2>
-                <p>
-                    What are the possible adverse effects of on-demand AI image generation?
-                </p>
-            </article>
-            <article className="">
-                <h2>
-                    Is VC Funding Drying Up?    
-                </h2>
-                <p>
-                    Private funding by VC firms is down 50% YOY. We take a look at what that means.
-                </p>
-            </article>
+            </h2>
+            <div className={styles.articleContainer}>
+                <article className={styles.article}>
+                    <h3>
+                        Hydrogen VS Electric Cars
+                    </h3>
+                    <p>
+                        Will hydrogen-fueled cars ever catch up to EVs?
+                    </p>
+                </article>
+                <article className={styles.article}>
+                    <h3>
+                        The Downsides of AI Artistry
+                    </h3>
+                    <p>
+                        What are the possible adverse effects of on-demand AI image generation?
+                    </p>
+                </article>
+                <article className={styles.article}>
+                    <h3>
+                        Is VC Funding Drying Up?    
+                    </h3>
+                    <p>
+                        Private funding by VC firms is down 50% YOY. We take a look at what that means.
+                    </p>
+                </article>
+            </div>
         </aside>
     );
 }

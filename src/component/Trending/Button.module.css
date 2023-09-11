@@ -1,8 +1,15 @@
 .button {
-    background-color: var(--very-dark-blue);
+    border: none;
+    background-color: var(--soft-red);
     color: var(--off-white);
     font-family: var(--font-family);
-    font-weight: var(--font-weight-normal);
-    padding: 10px 20px;
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-paragraph);
+    letter-spacing: 0.25em;
+    padding: 15px 30px;
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--very-dark-blue);
 }
