@@ -1,9 +1,10 @@
 .container {
-    width: 65vw;
-    margin: 70px auto;
+    width: 75vw;
+    margin: 40px auto;
 }
 
 .main {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }

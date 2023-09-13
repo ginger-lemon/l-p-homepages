@@ -1,5 +1,10 @@
 .article {
     width: 65%;
+
+    @media (max-width: 1380px) {
+        width: 100%;
+        margin: 40px 0;
+    }
 }
 
 .img{
@@ -9,8 +14,13 @@
 
 .divTexts {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (max-width: 1380px) {
+        flex-direction: column;
+    }
 }
 
 .h1 {
@@ -20,10 +30,19 @@
     width: 40%;
     line-height: 1em;
     margin: var(--font-margin-h1);
+
+    @media (max-width: 1380px) {
+        width: 100%;
+        margin: 20px 0;
+    }
 }
 
 .box {
     width: 52%;
+
+    @media (max-width: 1380px) {
+        width: 100%;
+    }
 }
 
 .box > p {

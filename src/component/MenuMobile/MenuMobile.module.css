@@ -1,0 +1,33 @@
+.extendMenuMobile {
+    background-color: var(--off-white);
+    width: 65vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.menuCloseMobile {
+    margin: 40px 30px 80px 0;
+    float: right;
+}
+
+.navMobile {
+    clear: right;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 60px 20px;
+}
+
+.navMobile > span {
+    font-family: var(--font-family);
+    font-size: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.navMobile > span:hover {
+    cursor: pointer;
+    color: var(--soft-red);
+}
